@@ -108,7 +108,7 @@
                 <a href="casino.php">
                 <button id="yes-button">JA</button>
                 </a>
-                <a href="homepage.php">
+                <a href="index.php">
                 <button id="no-button">NEJ</button>
                 </a>
             </div>
