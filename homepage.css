@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./QuandaleCasino.gif');
+    background-size: cover; /* Ensures the background covers the entire screen */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-position: center center; /* Centers the background */
+    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    margin: 0; /* Removes default margin */
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1; /* Allows the container to take up the remaining space */
+}
+
+#header {
+    width: 100%;
+    background-color: rgba(128, 0, 32, 0.8); /* Semi-transparent background to show the GIF */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    position: relative;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header p {
+    margin: 0;
+    flex: 1;
+}
+
+#profile-button-div {
+    position: absolute;
+    right: 20px; 
+}
+
+#profile-button-div button {
+    padding: 15px 30px; 
+    font-size: 20px; 
+    cursor: pointer;
+    background-color: #ce2929; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/*#profile-button-div {
+    position: absolute;
+    right: 20px;
+}
+
+#profile-button-div a button {
+    font-size: 25px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}*/
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#button-container button {
+    margin: 5px 0;
+}
+
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+section h2 {
+    color: red;
+}
+
+section button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

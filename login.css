@@ -1,0 +1,83 @@
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #800020;
+  color: white;
+  font-size: 30px;
+}
+
+.loginInput {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.loginInput form {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  text-align: left;
+  background-color: #800020; /* Same background color as the header */
+  padding: 40px;
+  border-radius: 10px;
+  color: white; /* Text color to contrast with the background */
+}
+
+.loginInput label {
+  display: block;
+  margin: 10px 0;
+  color: white; /* Text color to contrast with the background */
+}
+
+.loginInput input[type="text"],
+.loginInput input[type="password"],
+.loginInput input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.loginInput input[type="text"],
+.loginInput input[type="password"] {
+  background-color: #fff; /* White background for text inputs */
+  color: #000; /* Black text color for readability */
+}
+
+.loginInput input[type="submit"] {
+  background-color: #3304aa; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.loginInput input[type="submit"]:hover {
+  background-color: #5504cc; /* Change to a different color on hover */
+}
+
+.topnav {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+.topnav a {
+  color: black; /* Ensure the text color is black */
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-weight: bold;
+}
+
+.topnav a.active {
+  background-color: #3304aa;
+  color: white;
+}

@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('backgrund.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Example font */
+}
+
+
+#topbar {
+    width: 100%;
+    background-color: #800020;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 60px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+ }
+ 
+ 
+ .topbar-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+ }
+ 
+ 
+ h1 {
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+ }
+ 
+ 
+ .topbar-logo {
+    max-height: 150px;
+    position: absolute;
+    top: 80%;
+    left: 20px;
+    transform: translateY(-10%);
+    border-radius: 80px;
+ }
+ 
+ 
+ .button-container {
+    display: flex;
+    gap: 20px;
+    right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+ 
+ 
+ .button-container button {
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+ }
+ 
+
+#profileBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px 20px 75px;
+    border-radius: 10px;
+    width: 350px;
+    margin: 170px auto 30px; 
+    margin-top: 30 px;
+    background-color: #188818;
+    border: 2px solid white;
+}
+
+#profileBox img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white; /* Add border with 5px width and solid white color */
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#profileBox ul {
+    list-style: none;
+    padding: 0;
+}
+
+#profileBox ul li {
+    margin-bottom: 15px;
+    border: 5px;
+    
+}
+
+#profileBox ul li h3 {
+    margin: 20px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #010101;
+    border-radius: 50px;
+    border: 2px solid white;
+    color: white; 
+}

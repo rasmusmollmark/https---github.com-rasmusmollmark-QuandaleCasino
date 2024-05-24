@@ -1,0 +1,157 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: green;
+}
+
+.center-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#top, #bottom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+#top {
+    width: 100%;
+    background-color: black;
+}
+
+#bottom {
+    width: 100%;
+    background-color: red;
+}
+
+
+
+#hit-button, #double-button, #stay-button, #playagain_button {
+    display: none;
+    margin: 5px;
+    font-size: 16px;
+    background-color: aquamarine; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#score-top, #score-bottom, #result {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+#score-top {
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#score-bottom {
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#result {
+    background-color: green;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+#betting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+#betting #p-bet {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#bet-button-container {
+    display: flex;
+    gap: 10px;
+}
+
+#bet-button-container button {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bet-button-container button:hover {
+    background-color: darkred;
+}
+
+#money {
+    margin-top: 10px;
+    text-align: center;
+}
+#top-right-image {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for effect */
+}
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 100px;
+    right: 300px; /* Adjusted to position next to #betting */
+}
+
+#blackjack_button {
+    font-size: 16px;
+    background-color: aquamarine; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px; /* Spacing between buttons */
+}
+
+#blackjack_button:hover, #hit-button:hover, #double-button:hover, #stay-button:hover, #playagain_button:hover {
+    background-color: darkcyan; /* Change to a darker shade on hover */
+}
